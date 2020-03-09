@@ -6,6 +6,7 @@ html {
 body {
     justify-content: center;
     align-items: center;
+    font-family: 'B612 Mono', monospace;
     background-color: #262529;
 }
 
