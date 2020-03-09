@@ -24,6 +24,11 @@ img {
     margin: 0 auto;
 }
 
+.li {
+    background-color: whitesmoke;
+    color: #262529;
+}
+
 .center {
     width: 100vw;
     height: 100vh;
@@ -41,5 +46,15 @@ img {
 }
 
 .card {
-    border: 1px solid whitesmoke;
+    border: 3px solid whitesmoke;
+}
+
+.btn {
+    background-color: #A17BE6;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b99dee;
 }
