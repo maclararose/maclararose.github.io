@@ -8,6 +8,7 @@ body {
     align-items: center;
     font-family: 'B612 Mono', monospace;
     background-color: #262529;
+    border: 5 solid whitesmoke;
 }
 
 h5 {
