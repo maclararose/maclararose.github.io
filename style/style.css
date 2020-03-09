@@ -1,0 +1,41 @@
+html {
+    font-family: 'B612 Mono', monospace;
+    background-color: #262529;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'B612 Mono', monospace;
+    background-color: #262529;
+    border: 5 solid whitesmoke;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: whitesmoke;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px;
+}
+
+.center-box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(150, 118, 211);
+}
