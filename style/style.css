@@ -1,3 +1,7 @@
+*{
+    overflow:hidden;
+}
+
 html {
     font-family: 'B612 Mono', monospace;
     background-color: #262529;
@@ -24,9 +28,8 @@ img {
 }
 
 .bordas-img {
-    width: 250px;
+    width: 300px;
     height: 200px;
-    border-radius: 100%;
     border: whitesmoke solid 3px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -89,52 +92,4 @@ img {
 .footer p {
     margin: 5px 0 0 0;
     font-size: 15px;
-}
-
-#linkedin-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color:white;
-    border-radius: 50%;
-}
-
-#linkedin-color:hover{
-    background-color: #24292E;
-    color: white;
-}
-
-#github-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: white;
-    border-radius: 50%;
-}
-
-#github-color:hover{
-    background-color: #24292E;
-    color: white;
-}
-
-#insta-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: white;
-    border-radius: 50%;
-}
-
-#insta-color:hover{
-    background-color: #24292E;
-    color: white;
-}
-
-#driver-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: white;
-    border-radius: 50%;
-}
-
-#driver-color:hover{
-    background-color: #24292E;
-    color: white;
 }
