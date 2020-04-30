@@ -1,5 +1,6 @@
 *{
-    overflow:hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 html {
@@ -103,5 +104,5 @@ img {
 }
 
 #button{
-    justify-content: center !important;
+
 }
