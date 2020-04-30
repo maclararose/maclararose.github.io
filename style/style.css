@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'B612 Mono', monospace;
-    background-color: blueviolet;
+    background-color: #212022;
 }
 
 h5 {
@@ -28,7 +28,7 @@ img {
 }
 
 .bordas-img {
-    width: 300px;
+    width: 230px;
     height: 300px;
     border: whitesmoke solid 3px;
     margin-bottom: 10px;
@@ -48,6 +48,7 @@ img {
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px;
+    
 }
 
 .center-box {
@@ -58,7 +59,7 @@ img {
 
 .border-card {
     opacity: 0.65;
-    border: grey;
+    border: white 2px;
 
 }
 
@@ -96,8 +97,11 @@ img {
     font-size: 15px;
 }
 
-.dive{
+#dive{
+    padding: 10px;
     background-color: #262529;
-    border-color: darkgray;
-    border: 2px;
+}
+
+#button{
+    justify-content: center !important;
 }
