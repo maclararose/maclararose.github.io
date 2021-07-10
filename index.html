@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./style/style.css">
+			<link rel="stylesheet" href="./style/style.css">
 
-        <title>Maria Clara B.</title>
+			<script src="./script.js" type="text/javascript"></script>
 
-    </head>
-
-    <body>
-        <div class="container">
-            <div class="card">
-                <img src="./img/maria.jpeg" />
-                <h3>Maria Clara Barroso de Carvalho | UESPI</h3>
-                <h5>Developer girl | JavaScript | Java | SQL | Rails</h5>
-                <hr>
-                <p>A simple student and IT girl, passionate about technology! If you want contact me, my LinkeIn and Instagram are below. </p>
-                <hr>                    
-                <div class="btn">
-                <a href="https://github.com/maclararose">GitHub | </a>
-                <a href="https://www.linkedin.com/in/mariaclarab/">LinkedIn | </a>
-                <a href="https://drive.google.com/drive/folders/1J5lJaDWLRoI3rGTZEHvPbb_L87mO24Hv?usp=sharing">Drive | </a>
-                <a href="https://www.instagram.com/alternativa.nerd/">Instagram</a>
-            </div>
-        </div>
-    </body>
+			<title>Maria Clara B.</title>
+	</head>
+	<body>
+		<div class="card-container">
+			<div class="card-container__profile">
+				<img src="./img/maria.jpeg" class="card-container__image"/>
+				<label class="card-profile__label">Maria Clara B.</label>
+				<label class="card-profile__label">Software developer</label>
+				<div class="card-profile__buttons">
+					<a class="card-profile__button github" href="https://github.com/maclararose" target="_blank">
+						<i class="icon-github">
+							<img class="img-github" src="./icons/github.png"/>
+						</i>
+						<span></span>
+					</a>
+					<a class="card-profile__button linkedin" href="https://www.linkedin.com/in/mariaclarab" target="_blank">
+						<i class="icon-linkedin">
+							<img class="img-linkedin" src="./icons/linkedin.png" />
+						</i>
+						<span></span>
+					</a>
+					<a class="card-profile__button instagram" href="https://www.instagram.com/alternativa.nerd/" target="_blank">
+						<i class="icon-instagram">
+							<img class="img-instagram" src="./icons/instagram.png"/>
+						</i>
+						<span></span>
+					</a>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="card-body__galery">
+					<img src="./img/maria.jpeg"/>
+				</div>
+				<p class="card-body__p">
+					Hello, everyone! Welcome to my profile. My name, as you see, is Maria, but you can call me Mary.
+				</p>
+				<p class="card-body__p">
+					I am 21 years and love books, chocolate, games, and technology. I am currently a junior developer and try to every day learn something.
+				</p>
+				<p class="card-body__p">
+					In addition, I write some articles and post to help those newbies to technology. You can see this thing too, below:
+				</p>
+			</div>
+		</div>
+	</body>
 </html>
